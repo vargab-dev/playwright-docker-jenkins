@@ -17,7 +17,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                sh 'docker run --rm playwright-api-tests'
+                sh 'docker run --rm playwrightv-api-tests'
             }
         }
     }
